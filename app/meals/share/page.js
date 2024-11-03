@@ -9,7 +9,7 @@ import MealsFormSubmit from '@/components/meals/meals-for m-submit';
 
 export default function ShareMealPage() {
   const [state, formAction] = useFormState(shareMeal, { message: null });
-
+  console.log('tets');
   return (
     <>
       <header className={classes.header}>
